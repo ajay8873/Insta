@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(Dr.) Ajay Mehta - MBBS Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
     <style>
         /* --- RESET & VARIABLES --- */
         :root {
@@ -225,7 +227,47 @@
             margin: 0 15px;
             color: var(--primary-color);
         }
+/* Container to stack them vertically and center them */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Space between links */
+    font-family: sans-serif;
+}
 
+/* Style for the text links */
+.social-item {
+    text-decoration: none;
+    color: #0f4c75; /* Dark Blue color from your image */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+}
+
+.social-item:hover {
+    color: #3282b8; /* Lighter blue on hover */
+}
+
+/* Style specifically for the Call Now button */
+.call-btn {
+    text-decoration: none;
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    margin-top: 5px;
+}
+
+.call-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    }
+        
         /* --- FOOTER --- */
         footer {
             background: var(--primary-color);
@@ -335,6 +377,28 @@
         <h2 class="section-title">Connect With Me</h2>
         <div class="contact-container">
             <p>I am always open to discussing medical cases or just a friendly chat.</p>
+           
+            <div class="social-links">
+    <a href="https://www.threads.com/@_ajay__mehta__" class="social-item">
+        <i class="fa-brands fa-threads"></i> Threads
+    </a>
+
+    <a href="https://x.com/AjayMehta_79" class="social-item">
+        <i class="fa-brands fa-x-twitter"></i> Twitter/X
+    </a>
+
+    <a href="https://www.instagram.com/_ajay__mehta__?igsh=MWNocHF1eW1xN3o2aw==" class="social-item">
+        <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+
+    <a href="mailto:mehtaajay8873@gmail.com" class="social-item">
+        <i class="fa-solid fa-envelope"></i> Email Me
+    </a>
+
+    <a href="tel:+917209579748" class="call-btn">
+        <i class="fa-solid fa-phone"></i> Call Now
+    </a>
+            </div>
             
             <div class="social-links">
                 <a href="https://www.threads.com/@_ajay__mehta__">Threads</a> <br>
